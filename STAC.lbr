@@ -619,6 +619,10 @@ cds.linear.com/docs/en/datasheet/6820fb.pdf</description>
 <smd name="23" x="-0.75" y="1.98" dx="0.76" dy="0.26" layer="1" roundness="7" rot="R270"/>
 <smd name="24" x="-1.25" y="1.98" dx="0.76" dy="0.26" layer="1" roundness="7" rot="R270"/>
 </package>
+<package name="LPS4018-223M">
+<smd name="P$1" x="-1" y="0" dx="0.87" dy="1.15" layer="1"/>
+<smd name="P$2" x="1" y="0" dx="0.87" dy="1.15" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ATMEGA32U4">
@@ -986,7 +990,7 @@ cds.linear.com/docs/en/datasheet/6820fb.pdf</description>
 <pin name="REG_D1" x="-17.78" y="15.24" length="short"/>
 <pin name="VID" x="-17.78" y="12.7" length="short"/>
 <pin name="SW" x="-17.78" y="7.62" length="short"/>
-<pin name="VIN" x="-17.78" y="5.08" length="short"/>
+<pin name="VIN" x="-17.78" y="2.54" length="short"/>
 <pin name="MPPT" x="-17.78" y="-7.62" length="short"/>
 <pin name="CBP" x="-17.78" y="-10.16" length="short"/>
 <pin name="MINOP" x="-17.78" y="-12.7" length="short"/>
@@ -1009,6 +1013,14 @@ cds.linear.com/docs/en/datasheet/6820fb.pdf</description>
 <text x="-5.08" y="7.62" size="1.778" layer="95">&gt;Name</text>
 <text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;Value</text>
 <pin name="GND" x="0" y="-25.4" length="short" rot="R90"/>
+</symbol>
+<symbol name="LPS4018-223M">
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="-2.54" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<pin name="P$1" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="P$2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1494,7 +1506,7 @@ http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADP5092">
+<deviceset name="ADP5092" prefix="U">
 <gates>
 <gate name="G$1" symbol="ADP5092" x="2.54" y="0"/>
 </gates>
@@ -1526,6 +1538,22 @@ http://www.st.com/content/ccc/resource/technical/document/datasheet/1e/3f/2a/d6/
 <connect gate="G$1" pin="TERM" pad="4"/>
 <connect gate="G$1" pin="VID" pad="20"/>
 <connect gate="G$1" pin="VIN" pad="10"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LPS4018-223M">
+<gates>
+<gate name="G$1" symbol="LPS4018-223M" x="30.48" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="LPS4018-223M">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
