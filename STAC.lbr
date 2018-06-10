@@ -1275,23 +1275,23 @@ cds.linear.com/docs/en/datasheet/6820fb.pdf</description>
 <rectangle x1="-0.65" y1="-0.35" x2="0.65" y2="0.35" layer="31"/>
 </package>
 <package name="PCBSAT-TORQUECOIL">
-<smd name="1" x="-5" y="3" dx="2" dy="1" layer="1"/>
-<smd name="2" x="5" y="3" dx="2" dy="1" layer="1"/>
-<wire x1="-7.5" y1="1.5" x2="7.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="7.5" y1="1.5" x2="7.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="7.5" y1="-1.5" x2="-7.5" y2="-1.5" width="0.127" layer="51"/>
-<wire x1="-7.5" y1="-1.5" x2="-7.5" y2="1.5" width="0.127" layer="51"/>
-<wire x1="6" y1="3" x2="11" y2="3" width="0.127" layer="21"/>
-<wire x1="11" y1="3" x2="11" y2="-3" width="0.127" layer="21"/>
-<wire x1="11" y1="-3" x2="6" y2="-3" width="0.127" layer="21"/>
-<wire x1="6" y1="-3" x2="6" y2="3" width="0.127" layer="21"/>
-<wire x1="-6" y1="3" x2="-11" y2="3" width="0.127" layer="21"/>
-<wire x1="-11" y1="3" x2="-11" y2="-3" width="0.127" layer="21"/>
-<wire x1="-11" y1="-3" x2="-6" y2="-3" width="0.127" layer="21"/>
-<wire x1="-6" y1="-3" x2="-6" y2="3" width="0.127" layer="21"/>
-<rectangle x1="-8" y1="-3" x2="8" y2="3" layer="41"/>
-<text x="-3" y="3" size="1.27" layer="25">&gt;Name</text>
-<text x="-3" y="-4" size="1.27" layer="27">&gt;Value</text>
+<smd name="1" x="-9" y="0" dx="2" dy="1" layer="1"/>
+<smd name="2" x="9" y="0" dx="2" dy="1" layer="1"/>
+<wire x1="-7.5" y1="1.125" x2="7.5" y2="1.125" width="0.127" layer="51"/>
+<wire x1="7.5" y1="1.125" x2="7.5" y2="-1.125" width="0.127" layer="51"/>
+<wire x1="7.5" y1="-1.125" x2="-7.5" y2="-1.125" width="0.127" layer="51"/>
+<wire x1="-7.5" y1="-1.125" x2="-7.5" y2="1.125" width="0.127" layer="51"/>
+<wire x1="6" y1="1" x2="10" y2="1" width="0.127" layer="21"/>
+<wire x1="10" y1="1" x2="10" y2="-3" width="0.127" layer="21"/>
+<wire x1="10" y1="-3" x2="6" y2="-3" width="0.127" layer="21"/>
+<wire x1="6" y1="-3" x2="6" y2="1" width="0.127" layer="21"/>
+<wire x1="-6" y1="1" x2="-10" y2="1" width="0.127" layer="21"/>
+<wire x1="-10" y1="1" x2="-10" y2="-3" width="0.127" layer="21"/>
+<wire x1="-10" y1="-3" x2="-6" y2="-3" width="0.127" layer="21"/>
+<wire x1="-6" y1="-3" x2="-6" y2="1" width="0.127" layer="21"/>
+<text x="-1" y="-3" size="1.27" layer="25">&gt;Name</text>
+<text x="-7" y="-3" size="1.27" layer="27">&gt;Value</text>
+<rectangle x1="-8" y1="-1" x2="8" y2="1" layer="41"/>
 </package>
 </packages>
 <symbols>
